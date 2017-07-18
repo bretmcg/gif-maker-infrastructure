@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gif-maker
-          image: "gcr.io/bretmcg-labs/gif-maker:0.0.6" 
+          image: "gcr.io/bretmcg-labs/gif-maker:0.0.7" 
           imagePullPolicy: Always
           ports:
             - containerPort: 80
