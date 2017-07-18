@@ -4,6 +4,6 @@ metadata:
   name: "gif-maker"
   namespace: default
 data:
-  bucket: "gif-maker"
-  database: "projects/hightowerlabs/instances/gif-maker/databases/production"
-  project-id: "hightowerlabs"
+  bucket: "bretmcg-gif-maker"
+  database: "projects/bretmcg-labs/instances/gif-maker/databases/production"
+  project-id: "bretmcg-labs"

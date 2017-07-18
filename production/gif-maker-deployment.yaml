@@ -14,13 +14,13 @@ spec:
     spec:
       containers:
         - name: gif-maker
-          image: "gcr.io/hightowerlabs/gif-maker:0.0.1" 
+          image: "gcr.io/bretmcg-labs/gif-maker:0.0.4" 
           imagePullPolicy: Always
           env:
             - name: BUCKET
               valueFrom:
                 configMapKeyRef:
-                  name: gif-maker
+                  name: bretmcg-gif-maker
                   key: bucket
             - name: DATABASE
               valueFrom:
